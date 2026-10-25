@@ -32,234 +32,234 @@ Also in this document: [Attachments](#attachments), [Attachment slots](#attachme
 
 Bolt-action and anti-materiel rifles. 31 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `SNAFU_FRF2` | FR-F2 Sniper Rifle | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_FRF2_Mag` | `weaponOpticsHunting`, `weaponWrap` | SNAFU_WW2 |
-| `GCGN_M700` | Remington Model 700 | .308 Win / 7.62x51mm | Single | `GCGN_M700_Mag` | `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `suppressorImpro` | GCGN_Guns |
-| `SNAFU_M48` | Zastava M48 | .308 Win / 7.62x51mm | Single | internal (loads rounds directly) | `weaponWrap`, `weaponOpticsMosin`, `suppressorImpro` | SNAFU_WW2 |
-| `SNAFU_AWM_GUN` | AWM 338 | .338 Lapua Magnum | Single | `SNAFU_AWM_Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUM98B_Atac_GUN` | Atac M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUT5000_Dkmcc_GUN` | DKMC T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUDVL10M2` | DVL-10 M2 | .338 Lapua Magnum | Single | `SNAFUDVL10M2_5rdMag` | `weaponWrap`, `weaponOptics`, `snafuweaponBipod`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_06 |
-| `SNAFUM98B_Digi_GUN` | Digi M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUM98B_Ger_GUN` | Ger M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUM98B_Mc_GUN` | MC M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUM24_GUN` | SNAFU M24A3 | .338 Lapua Magnum | Single | `SNAFUM24_Mag` | `weaponFlashlight`, `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUSRSA2` | SRS A2 | .338 Lapua Magnum | Single | `SNAFUSRSA2_10rdMag` | `weaponWrap`, `weaponOptics`, `snafuweaponBipod`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_06 |
-| `SNAFUM98B_Snow_GUN` | Snow M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUT5000_Snow_GUN` | Snow T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUTac21` | Tac-21 | .338 Lapua Magnum | Single | `SNAFUTac21_5rdMag` | `weaponWrap`, `weaponOptics`, `snafuweaponBipod`, `weaponOpticsHunting` | SNAFU_Guns_06 |
-| `SNAFUM98B_Wood_GUN` | Wood M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFUT5000_Wood_GUN` | Wood T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `SNAFU338_Suppressor` | SNAFU_Guns_01 |
-| `SNAFU_M300BK` | CheyTac M300 Black | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `snafuweaponBipod`, `snafuar15afg`, `snafu50bmg` | SNAFU_Guns_02 |
-| `SNAFU_M300TAN` | CheyTac M300 Desert | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `snafuweaponBipod`, `snafuar15afg`, `snafu50bmg` | SNAFU_Guns_02 |
-| `SNAFU_M300Green` | CheyTac M300 Forest | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `snafuweaponBipod`, `snafuar15afg`, `snafu50bmg` | SNAFU_Guns_02 |
-| `GCGN_M200` | M200 CheyTac Black | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `SNAFUM200Stock`, `SNAFUM200Bipod`, `snafu50bmg` | GCGN_Guns |
-| `SNAFU_M200Green` | M200 CheyTac Green | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `SNAFUM200Stock`, `SNAFUM200Bipod`, `snafu50bmg` | GCGN_Guns |
-| `SNAFU_M200SNOW` | M200 CheyTac Snow | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `SNAFUM200Stock`, `SNAFUM200Bipod`, `snafu50bmg` | GCGN_Guns |
-| `GCGN_M200_Tan` | M200 CheyTac Tan | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics`, `SNAFUM200Stock`, `SNAFUM200Bipod`, `snafu50bmg` | GCGN_Guns |
-| `SNAFUM96` | M96 | .408 CheyTac | Single | `SNAFUM96_5rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting` | SNAFU_Guns_06 |
-| `SNAFU_AS50_GUN` | AS50 | .50 BMG | SemiAuto | `SNAFU_AS50_Mag` | `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `snafu50bmg`, `weaponFlashlight` | SNAFU_Guns_01 |
-| `GCGN_M82_Barret` | GCGN M82 Barret Black | .50 BMG | SemiAuto | `GCGN_M82_Mag` | `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafu50bmg` | GCGN_Guns |
-| `SNAFUGM6Lynx` | GM6 Lynx | .50 BMG | SemiAuto | `SNAFUGM6Lynx_5rdMag` | `weaponWrap`, `weaponOptics`, `snafuweaponBipod`, `weaponOpticsHunting` | SNAFU_Guns_06 |
-| `SNAFUAX50_GUN` | SNAFU AX50 | .50 BMG | SemiAuto | `SNAFUAX50_Mag` | `weaponFlashlight`, `weaponOptics`, `snafuweaponBipod`, `weaponWrap`, `weaponOpticsHunting`, `snafu50bmg` | SNAFU_Guns_01 |
-| `SNAFUVSSK` | VSSK | 12.7x55mm / 12.7x55mm AP | SemiAuto | `SNAFUVSSK_5rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `snafuvsskBipod` | SNAFU_Guns_02 |
-| `SNAFUAlligator` | Snipex Alligator | 14.5x114mm | Single | `SNAFUAlligator_5rdMag` | `weaponWrap`, `weaponOpticsHunting`, `weaponOptics` | SNAFU_Guns_06 |
+| `SNAFU_FRF2` | FR-F2 Sniper Rifle | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_FRF2_Mag` | [list](#snafu_frf2) | SNAFU_WW2 |
+| `GCGN_M700` | Remington Model 700 | .308 Win / 7.62x51mm | Single | `GCGN_M700_Mag` | [list](#gcgn_m700) | GCGN_Guns |
+| `SNAFU_M48` | Zastava M48 | .308 Win / 7.62x51mm | Single | internal (loads rounds directly) | [list](#snafu_m48) | SNAFU_WW2 |
+| `SNAFU_AWM_GUN` | AWM 338 | .338 Lapua Magnum | Single | `SNAFU_AWM_Mag` | [list](#snafu_awm_gun) | SNAFU_Guns_01 |
+| `SNAFUM98B_Atac_GUN` | Atac M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUT5000_Dkmcc_GUN` | DKMC T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | [list](#snafut5000_dkmcc_gun) | SNAFU_Guns_01 |
+| `SNAFUDVL10M2` | DVL-10 M2 | .338 Lapua Magnum | Single | `SNAFUDVL10M2_5rdMag` | [list](#snafudvl10m2) | SNAFU_Guns_06 |
+| `SNAFUM98B_Digi_GUN` | Digi M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUM98B_Ger_GUN` | Ger M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUM98B_Mc_GUN` | MC M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUM24_GUN` | SNAFU M24A3 | .338 Lapua Magnum | Single | `SNAFUM24_Mag` | [list](#snafum24_gun) | SNAFU_Guns_01 |
+| `SNAFUSRSA2` | SRS A2 | .338 Lapua Magnum | Single | `SNAFUSRSA2_10rdMag` | [list](#snafusrsa2) | SNAFU_Guns_06 |
+| `SNAFUM98B_Snow_GUN` | Snow M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUT5000_Snow_GUN` | Snow T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | [list](#snafut5000_dkmcc_gun) | SNAFU_Guns_01 |
+| `SNAFUTac21` | Tac-21 | .338 Lapua Magnum | Single | `SNAFUTac21_5rdMag` | [list](#snafutac21) | SNAFU_Guns_06 |
+| `SNAFUM98B_Wood_GUN` | Wood M98B | .338 Lapua Magnum | SemiAuto | `SNAFUM98B_Mag` | [list](#snafum98b_atac_gun) | SNAFU_Guns_01 |
+| `SNAFUT5000_Wood_GUN` | Wood T5000 | .338 Lapua Magnum | Single | `SNAFUT5000_Mag` | [list](#snafut5000_dkmcc_gun) | SNAFU_Guns_01 |
+| `SNAFU_M300BK` | CheyTac M300 Black | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#snafu_m300bk) | SNAFU_Guns_02 |
+| `SNAFU_M300TAN` | CheyTac M300 Desert | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#snafu_m300bk) | SNAFU_Guns_02 |
+| `SNAFU_M300Green` | CheyTac M300 Forest | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#snafu_m300bk) | SNAFU_Guns_02 |
+| `GCGN_M200` | M200 CheyTac Black | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#gcgn_m200) | GCGN_Guns |
+| `SNAFU_M200Green` | M200 CheyTac Green | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#gcgn_m200) | GCGN_Guns |
+| `SNAFU_M200SNOW` | M200 CheyTac Snow | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#gcgn_m200) | GCGN_Guns |
+| `GCGN_M200_Tan` | M200 CheyTac Tan | .408 CheyTac | Single | `GCGN_M200_Mag`<br>`SNAFU_M300Mag` | [list](#gcgn_m200) | GCGN_Guns |
+| `SNAFUM96` | M96 | .408 CheyTac | Single | `SNAFUM96_5rdMag` | [list](#snafum96) | SNAFU_Guns_06 |
+| `SNAFU_AS50_GUN` | AS50 | .50 BMG | SemiAuto | `SNAFU_AS50_Mag` | [list](#snafu_as50_gun) | SNAFU_Guns_01 |
+| `GCGN_M82_Barret` | GCGN M82 Barret Black | .50 BMG | SemiAuto | `GCGN_M82_Mag` | [list](#gcgn_m82_barret) | GCGN_Guns |
+| `SNAFUGM6Lynx` | GM6 Lynx | .50 BMG | SemiAuto | `SNAFUGM6Lynx_5rdMag` | [list](#snafugm6lynx) | SNAFU_Guns_06 |
+| `SNAFUAX50_GUN` | SNAFU AX50 | .50 BMG | SemiAuto | `SNAFUAX50_Mag` | [list](#snafuax50_gun) | SNAFU_Guns_01 |
+| `SNAFUVSSK` | VSSK | 12.7x55mm / 12.7x55mm AP | SemiAuto | `SNAFUVSSK_5rdMag` | [list](#snafuvssk) | SNAFU_Guns_02 |
+| `SNAFUAlligator` | Snipex Alligator | 14.5x114mm | Single | `SNAFUAlligator_5rdMag` | [list](#snafualligator) | SNAFU_Guns_06 |
 
 ## DMR / Marksman Rifles
 
 Semi-automatic precision rifles, plus classic semi-auto and lever-action rifles. 28 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `GCGN_M1Garand` | M1Garand | .30-06 Springfield | SemiAuto | internal (loads rounds directly) | `GCGN_M84_Optic`, `GCGN_M1Garand_Muzzle`, `GCGN_M1Garand_Bayonet`, `weaponWrap`, `GCGN_M1Garand_FH` | GCGN_Guns |
-| `SNHK417_Gun` | Heckler & Koch HK417 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `GCGN_M110_Black` | M110 Semi-Automatic Black | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | `weaponOptics`, `sr25Muzzle`, `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `snafuweaponBipod`, `FGRIP`, `suppressorImpro` | GCGN_Guns |
-| `GCGN_M110_Green` | M110 Semi-Automatic Green | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | `weaponOptics`, `sr25Muzzle`, `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `snafuweaponBipod`, `FGRIP`, `suppressorImpro` | GCGN_Guns |
-| `GCGN_M110_Tan` | M110 Semi-Automatic Tan | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | `weaponOptics`, `sr25Muzzle`, `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `snafuweaponBipod`, `FGRIP`, `suppressorImpro` | GCGN_Guns |
-| `SNAFUM1A_Black` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `weaponMuzzleM4`, `snafuweaponBipod`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUM1A_Green` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `weaponMuzzleM4`, `snafuweaponBipod`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUM1A_Tan` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `weaponMuzzleM4`, `snafuweaponBipod`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_Saint_Gun` | SAINT VICTOR 308 | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_Saint_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU10NA`, `FGRIP` | SNAFU_Guns_02 |
-| `SNAFURSASS_dkmc_GUN` | SNAFU RSASS DKMC | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFURSASS_od_GUN` | SNAFU RSASS OD | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFURSASS_Wood_GUN` | SNAFU RSASS Wood | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_SR25_Gun` | SNAFU SR25 | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `snafuweaponBipod`, `sr25Muzzle`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_M76` | Zastava M76 | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M76_Mag` | `weaponWrap`, `weaponOpticsAK`, `suppressorImpro` | SNAFU_WW2 |
-| `SNAFUGevar_Black` | Gevar Mk-3 Black | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUGevar_Green` | Gevar Mk-3 Green | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUGevar_Grey` | Gevar Mk-3 Grey | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUGevar_Tan` | Gevar Mk-3 Tan | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUKivaari_Black_GUN` | Kivaari Black | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_03 |
-| `SNAFUKivaari_Grey_GUN` | Kivaari Grey | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_03 |
-| `SNAFUKivaari_Snow_GUN` | Kivaari Snow | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_03 |
-| `SNAFUKivaari_Tan_GUN` | Kivaari Tan | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_03 |
-| `SNAFU_MAR10_Black_GUN` | MAR10 Black | .338 Lapua Magnum | SemiAuto | `SNAFU_Mar10_15rnd_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `snafuweaponBipod`, `SNAFU338_Suppressor` | SNAFU_Guns_03 |
-| `SNAFUMarlin1895` | Marlin 1895 | .45-70 Government | Single | internal (loads rounds directly) | `weaponWrap`, `suppressorImpro`, `weaponOptics` | SNAFU_Guns_06 |
-| `SNAFU_CALI_GUN` | JJFU Nomad | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponOpticsHunting`, `weaponMuzzleM4` | SNAFU_Guns_01 |
-| `SNAFUMk12` | Mk 12 Mod 1 | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMk12_20rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `snafuweaponBipod`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_RDB` | RDB-17 | 5.56x45mm | SemiAuto | vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponMuzzleM4` | SNAFU_Guns_05 |
-| `SNAFU_SKS` | Zastava M59/66 PAP | 7.62x39mm | SemiAuto | `SNAFU_SKS_10Rnd_Mag`<br>`SNAFU_SKS_30Rnd_Mag` | `weaponWrap`, `weaponOpticsMosin`, `suppressorImpro`, `SNAFU_SKS_Bayonet` | SNAFU_WW2 |
+| `GCGN_M1Garand` | M1Garand | .30-06 Springfield | SemiAuto | internal (loads rounds directly) | [list](#gcgn_m1garand) | GCGN_Guns |
+| `SNHK417_Gun` | Heckler & Koch HK417 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | [list](#snhk417_gun) | Guns_01 |
+| `GCGN_M110_Black` | M110 Semi-Automatic Black | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | [list](#gcgn_m110_black) | GCGN_Guns |
+| `GCGN_M110_Green` | M110 Semi-Automatic Green | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | [list](#gcgn_m110_black) | GCGN_Guns |
+| `GCGN_M110_Tan` | M110 Semi-Automatic Tan | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag` | [list](#gcgn_m110_black) | GCGN_Guns |
+| `SNAFUM1A_Black` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | [list](#snafum1a_black) | SNAFU_Guns_06 |
+| `SNAFUM1A_Green` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | [list](#snafum1a_black) | SNAFU_Guns_06 |
+| `SNAFUM1A_Tan` | M1A | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | [list](#snafum1a_black) | SNAFU_Guns_06 |
+| `SNAFU_Saint_Gun` | SAINT VICTOR 308 | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_Saint_Mag` | [list](#snafu_saint_gun) | SNAFU_Guns_02 |
+| `SNAFURSASS_dkmc_GUN` | SNAFU RSASS DKMC | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | [list](#snafursass_dkmc_gun) | SNAFU_Guns_01 |
+| `SNAFURSASS_od_GUN` | SNAFU RSASS OD | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | [list](#snafursass_dkmc_gun) | SNAFU_Guns_01 |
+| `SNAFURSASS_Wood_GUN` | SNAFU RSASS Wood | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | [list](#snafursass_dkmc_gun) | SNAFU_Guns_01 |
+| `SNAFU_SR25_Gun` | SNAFU SR25 | .308 Win / 7.62x51mm | SemiAuto | `GCGN_M110_Mag`<br>`SNAFU_SR25_Mag`<br>`SNHK417_Mag`<br>`SNAFU_Saint_Mag`<br>`SNAFURSASS_Mag` | [list](#snafu_sr25_gun) | SNAFU_Guns_01 |
+| `SNAFU_M76` | Zastava M76 | .308 Win / 7.62x51mm | SemiAuto | `SNAFU_M76_Mag` | [list](#snafu_m76) | SNAFU_WW2 |
+| `SNAFUGevar_Black` | Gevar Mk-3 Black | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | [list](#snafugevar_black) | SNAFU_Guns_06 |
+| `SNAFUGevar_Green` | Gevar Mk-3 Green | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | [list](#snafugevar_black) | SNAFU_Guns_06 |
+| `SNAFUGevar_Grey` | Gevar Mk-3 Grey | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | [list](#snafugevar_black) | SNAFU_Guns_06 |
+| `SNAFUGevar_Tan` | Gevar Mk-3 Tan | .338 Lapua Magnum | SemiAuto | `SNAFUGevar_10rdMag` | [list](#snafugevar_black) | SNAFU_Guns_06 |
+| `SNAFUKivaari_Black_GUN` | Kivaari Black | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | [list](#snafukivaari_black_gun) | SNAFU_Guns_03 |
+| `SNAFUKivaari_Grey_GUN` | Kivaari Grey | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | [list](#snafukivaari_black_gun) | SNAFU_Guns_03 |
+| `SNAFUKivaari_Snow_GUN` | Kivaari Snow | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | [list](#snafukivaari_black_gun) | SNAFU_Guns_03 |
+| `SNAFUKivaari_Tan_GUN` | Kivaari Tan | .338 Lapua Magnum | SemiAuto | `SNAFUKivaari_10rdMag`<br>`SNAFUKivaari_25rdMag` | [list](#snafukivaari_black_gun) | SNAFU_Guns_03 |
+| `SNAFU_MAR10_Black_GUN` | MAR10 Black | .338 Lapua Magnum | SemiAuto | `SNAFU_Mar10_15rnd_Mag` | [list](#snafu_mar10_black_gun) | SNAFU_Guns_03 |
+| `SNAFUMarlin1895` | Marlin 1895 | .45-70 Government | Single | internal (loads rounds directly) | [list](#snafumarlin1895) | SNAFU_Guns_06 |
+| `SNAFU_CALI_GUN` | JJFU Nomad | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_cali_gun) | SNAFU_Guns_01 |
+| `SNAFUMk12` | Mk 12 Mod 1 | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMk12_20rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumk12) | SNAFU_Guns_06 |
+| `SNAFU_RDB` | RDB-17 | 5.56x45mm | SemiAuto | vanilla: STANAG, CMAG | [list](#snafu_rdb) | SNAFU_Guns_05 |
+| `SNAFU_SKS` | Zastava M59/66 PAP | 7.62x39mm | SemiAuto | `SNAFU_SKS_10Rnd_Mag`<br>`SNAFU_SKS_30Rnd_Mag` | [list](#snafu_sks) | SNAFU_WW2 |
 
 ## Assault & Battle Rifles (AR)
 
 Select-fire rifles and carbines. 69 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
 | `SNAFU_M1918A2` | M1918 Browning Rifle | .30-06 Springfield | FullAuto, SemiAuto | `SNAFU_M1918A2_Mag` | - | SNAFU_WW2 |
-| `SNAFU_AR15SPRBK` | 300AC AR15 BK | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU16`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUAR15_SPR_Black_GUN` | 300AC AR15 Black | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU16`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUAR15_SPR_Tan_GUN` | 300AC AR15 Tan | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU16`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFU_AR15SPRTAN` | 300AC AR15 Tan | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU16`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFU_M4300AC_10_GUN` | 300AC Carbine M4-10in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU10NA`, `suppressorImpro`, `FGRIP` | SNAFU_Guns_02 |
-| `SNAFU_M4300AC_14_GUN` | 300AC Carbine M4-14in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `WeaponHandguardM4`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU14`, `suppressorImpro`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `SNAFU_M4300AC_16_GUN` | 300AC Carbine M4-16in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU16`, `weaponHGSNAFU14`, `suppressorImpro`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `SNAFU_M4300AC_14DV_GUN` | 300AC Carbine M4-Vanilla | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `WeaponHandguardM4`, `weaponButtstockM4`, `suppressorImpro`, `weaponButtstockCQR` | SNAFU_Guns_02 |
-| `SNAFUHoneyBadger_Black` | AAC Honey Badger | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFUHoneyBadger_30rdMag_Black`<br>`SNAFUHoneyBadger_30rdMag_Tan` | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP` | SNAFU_Guns_06 |
-| `SNAFUHoneyBadger_Tan` | AAC Honey Badger | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFUHoneyBadger_30rdMag_Black`<br>`SNAFUHoneyBadger_30rdMag_Tan` | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP` | SNAFU_Guns_06 |
-| `SNAFU_KAC_Gun` | KAC PDW | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_AK308` | AK-308 Assault Rifle | .308 Win / 7.62x51mm | FullAuto, Burst, SemiAuto | `SNAFU_AK308_Mag` | `weaponButtstockAK`, `weaponWrap`, `weaponFlashlight`, `weaponOptics`, `SNAFUWeaponHandguardAK`, `weaponMuzzleAK`, `weaponMuzzelSNAFU`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFUDSASA58_Gun` | DSA SA58 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SA58_DrumMag`<br>`SA58_30RND_BK`<br>`SA58_30RND_WBK`<br>`SA58_30RND_DT`<br>`GCGN_Mag_FAL_50Rnd`<br>vanilla: FAL | `weaponFlashlight`, `weaponButtstockFal`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `SNAFUDSASA58`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFU_G3A3` | G3A3 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SNAFU_G3A3_20rdMag` | `weaponWrap`, `suppressorImpro` | SNAFU_Guns_05 |
-| `SNAFU_M14` | M14 Battle Rifle | .308 Win / 7.62x51mm | SemiAuto, FullAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | `weaponWrap`, `SNAFU_M14Optic` | SNAFU_WW2 |
-| `SNSA58_Gun` | SA58 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SA58_DrumMag`<br>`SA58_30RND_BK`<br>`SA58_30RND_WBK`<br>`SA58_30RND_DT`<br>`GCGN_Mag_FAL_50Rnd`<br>vanilla: FAL | `weaponFlashlight`, `weaponButtstockFal`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `Snafu_ScarH_Black_GUN` | SNAFU Scar-H BK | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_03 |
-| `Snafu_ScarH_DKMC_GUN` | SNAFU Scar-H DKMC | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_03 |
-| `Snafu_ScarH_OD_GUN` | SNAFU Scar-H OD | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_03 |
-| `Snafu_ScarH_Snow_GUN` | SNAFU Scar-H Snow | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_03 |
-| `Snafu_ScarH_Tan_GUN` | SNAFU Scar-H Tan | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | `weaponWrap`, `weaponOpticsHunting`, `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_03 |
-| `SNAFUASh12` | ASh-12.7 | 12.7x55mm | FullAuto, SemiAuto | `SNAFUASh12_20rdMag` | `weaponWrap`, `weaponOptics`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `snafuweaponBipod`, `weaponFlashlight` | SNAFU_Guns_06 |
-| `SNAFU_AK12A` | AK-12 Assault Rifle | 5.45x39mm | FullAuto, Burst, SemiAuto | `SNAFU_AK12_Mag`<br>`SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | `weaponButtstockAK`, `weaponWrap`, `weaponFlashlight`, `weaponOptics`, `SNAFUWeaponHandguardAK`, `weaponMuzzleAK`, `weaponMuzzelSNAFU`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFU_AEK545_Gun` | SNAFU AEK545 | 5.45x39mm | SemiAuto, FullAuto, Burst | `SNAFU_AK12_Mag`<br>`SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | `weaponOptics`, `weaponFlashlight`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_ADAR_Modular16_GUN` | 5.56 ADAR 16in | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU16`, `weaponHGSNAFU14`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `SNAFU_AR15_Modular16_GUN` | 5.56 AR15 16in | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU16`, `weaponHGSNAFU14`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `M4_6933_Gun` | 5.56 Carbine M4-10in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU10NA`, `suppressorImpro`, `FGRIP` | SNAFU_Guns_02 |
-| `SNAFU_M4556_Modular10_GUN` | 5.56 Carbine M4-10in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU10NA`, `suppressorImpro`, `FGRIP` | SNAFU_Guns_02 |
-| `SNAFU_M4556_Modular14_GUN` | 5.56 Carbine M4-14in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `WeaponHandguardM4`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU14`, `suppressorImpro`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `SNAFU_M4556_Modular16_GUN` | 5.56 Carbine M4-16in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponButtstockCQR`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU14NA`, `weaponHGSNAFU10NA`, `weaponHGSNAFU16`, `weaponHGSNAFU14`, `suppressorImpro`, `weaponHGAdarNA` | SNAFU_Guns_02 |
-| `GCGN_M4A1` | 5.56 Carbine M4-Vanilla | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `WeaponHandguardM4`, `weaponButtstockM4`, `suppressorImpro`, `weaponButtstockCQR` | SNAFU_Guns_02 |
-| `SNAFU_M4556_Modular14DV_GUN` | 5.56 Carbine M4-Vanilla | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `WeaponHandguardM4`, `weaponButtstockM4`, `suppressorImpro`, `weaponButtstockCQR` | SNAFU_Guns_02 |
-| `SNAFU_AK19` | AK-19 Assault Rifle | 5.56x45mm | FullAuto, Burst, SemiAuto | vanilla: AK101 | `weaponButtstockAK`, `weaponWrap`, `weaponFlashlight`, `weaponOptics`, `SNAFUWeaponHandguardAK`, `weaponMuzzleAK`, `weaponMuzzelSNAFU`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFUAUG_BK` | AUG A3 Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUAUG` | AUG A3 Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_AK5C` | Ak 5C | 5.56x45mm | FullAuto, SemiAuto | vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4` | SNAFU_Guns_05 |
-| `SNAFU_BR18` | BR18 | 5.56x45mm | FullAuto, SemiAuto | vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponMuzzleM4` | SNAFU_Guns_05 |
-| `SNAFU_CZ805_Gun` | CZ805 | 5.56x45mm | FullAuto, Burst, SemiAuto | `GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFUFAMAS` | FAMAS | 5.56x45mm | FullAuto, Burst, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SCAR_Gun` | FN SCAR 556 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `GCGN_HK416` | Heckler & Koch HK416 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | GCGN_Guns |
-| `HK416_Gun` | Heckler & Koch HK416 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `IA2_Gun` | IA2 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `SNAFU_LVOA556_GUN` | LVOA 5.56 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU16NA`, `weaponHGSNAFU16` | SNAFU_Guns_02 |
-| `SNAFUMDARCAR_Black` | MDAR Carbine Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARCAR_Green` | MDAR Carbine Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARCAR_Tan` | MDAR Carbine Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARRIF_Black` | MDAR Rifle Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARRIF_Green` | MDAR Rifle Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARRIF_Tan` | MDAR Rifle Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARSBR_Black` | MDAR SBR Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARSBR_Green` | MDAR SBR Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFUMDARSBR_Tan` | MDAR SBR Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `MK18_Gun` | MK18 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `ACR_Gun` | Remington ACR | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`GCGN_Acr_Mag`<br>vanilla: STANAG, CMAG | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponWrap`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | Guns_01 |
-| `SNAFUSA80` | SA-80 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponMuzzleM4`, `weaponFlashlight`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `snafuweaponBipod`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_Saint556_Gun` | SAINT VICTOR 5.56 | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponButtstockADAR`, `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponrgripSNAFU`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponButtstockCQR`, `weaponHGSNAFU10NA`, `FGRIP` | SNAFU_Guns_02 |
-| `SG550_Gun` | SG550 | 5.56x45mm | FullAuto, SemiAuto, Burst | `SG550_Mag` | `weaponOptics`, `weaponWrap`, `weaponMuzzleM4`, `suppressorImpro` | Guns_01 |
-| `SG552_Gun` | SG552 | 5.56x45mm | FullAuto, SemiAuto, Burst | `SG550_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponMuzzleM4`, `suppressorImpro` | Guns_01 |
-| `SNAFUTAR21_Black` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUTAR21_Green` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUTAR21_Tan` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `weaponMuzzleM4`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_AK103A` | AK-103 Assault Rifle | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | `weaponOpticsAK`, `weaponWrap`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFU_MK4710Gun` | MK47 10in | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponMuzzelSNAFU`, `weaponButtstockM4`, `weaponHGSNAFU10NA`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_02 |
-| `SNAFU_MK4716Gun` | MK47 16in | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | `weaponOptics`, `weaponHGSNAFU10`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponWrap`, `weaponMuzzleM4`, `weaponGripKAAR`, `snafuar15afg`, `weaponGripCQR`, `weaponMuzzelSNAFU`, `snafuweaponBipod`, `weaponButtstockM4`, `weaponHGSNAFU10NA`, `FGRIP`, `weaponHGSNAFU16NA`, `weaponHGSNAFU14NA`, `weaponHGSNAFU16`, `weaponHGSNAFU14`, `suppressorImpro` | SNAFU_Guns_02 |
-| `GCGN_Vepr` | VEPR | 7.62x39mm | SemiAuto | `GCGN_VEPR_10rnd` | `weaponOpticsAK`, `weaponWrap`, `suppressorImpro` | GCGN_Guns |
-| `SNAFU_M70` | Zastava M70 | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | `weaponWrap`, `weaponMuzzleAK` | SNAFU_WW2 |
-| `SNAFUSR3_Vikhr` | SR-3 Assault Rifle | 9x39mm / 9x39mm AP | SemiAuto, FullAuto | `Mag_VSS_10Rnd`<br>`Mag_VAL_20Rnd`<br>`SR3_Vikhr_Mag`<br>`SNAFU_SR3Vikhr_Mag` | `weaponOpticsAK`, `weaponWrap`, `SNAFUWSR3Stock`, `SNAFUSR3HG`, `SNAFUSR3Grip`, `weaponMuzzelSNAFU`, `SR3S` | SNAFU_Guns_03 |
+| `SNAFU_AR15SPRBK` | 300AC AR15 BK | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_ar15sprbk) | SNAFU_Guns_02 |
+| `SNAFUAR15_SPR_Black_GUN` | 300AC AR15 Black | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_ar15sprbk) | SNAFU_Guns_02 |
+| `SNAFUAR15_SPR_Tan_GUN` | 300AC AR15 Tan | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_ar15sprbk) | SNAFU_Guns_02 |
+| `SNAFU_AR15SPRTAN` | 300AC AR15 Tan | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_ar15sprbk) | SNAFU_Guns_02 |
+| `SNAFU_M4300AC_10_GUN` | 300AC Carbine M4-10in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_m4300ac_10_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4300AC_14_GUN` | 300AC Carbine M4-14in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_m4300ac_14_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4300AC_16_GUN` | 300AC Carbine M4-16in | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_m4300ac_16_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4300AC_14DV_GUN` | 300AC Carbine M4-Vanilla | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_m4300ac_14dv_gun) | SNAFU_Guns_02 |
+| `SNAFUHoneyBadger_Black` | AAC Honey Badger | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFUHoneyBadger_30rdMag_Black`<br>`SNAFUHoneyBadger_30rdMag_Tan` | [list](#snafuhoneybadger_black) | SNAFU_Guns_06 |
+| `SNAFUHoneyBadger_Tan` | AAC Honey Badger | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFUHoneyBadger_30rdMag_Black`<br>`SNAFUHoneyBadger_30rdMag_Tan` | [list](#snafuhoneybadger_black) | SNAFU_Guns_06 |
+| `SNAFU_KAC_Gun` | KAC PDW | .300 AAC Blackout | FullAuto, SemiAuto | `SNAFU_CMAG30300_Black`<br>`SNAFU_CMAG30300_Tan`<br>`SNAFU_CMAG40300_Black`<br>`SNAFU_CMAG40300_Tan`<br>`SNAFU_CMAG60300_Black`<br>`SNAFU_CMAG60300_Tan`<br>`SNAFU_BMAG300_Tan`<br>`SNAFU_BMAG300_Black`<br>`SNAFUAR15_SPR_30RND_Mag`<br>`SNAFUAR15_SPR_40RND_Mag`<br>`SNAFUAR15_SPR_60RND_Mag`<br>`SNAFUAR15_SPR_100RND_Mag`<br>`SNAFU_KAC_Mag` | [list](#snafu_kac_gun) | SNAFU_Guns_01 |
+| `SNAFU_AK308` | AK-308 Assault Rifle | .308 Win / 7.62x51mm | FullAuto, Burst, SemiAuto | `SNAFU_AK308_Mag` | [list](#snafu_ak308) | SNAFU_Guns |
+| `SNAFUDSASA58_Gun` | DSA SA58 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SA58_DrumMag`<br>`SA58_30RND_BK`<br>`SA58_30RND_WBK`<br>`SA58_30RND_DT`<br>`GCGN_Mag_FAL_50Rnd`<br>vanilla: FAL | [list](#snafudsasa58_gun) | SNAFU_Guns_02 |
+| `SNAFU_G3A3` | G3A3 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SNAFU_G3A3_20rdMag` | [list](#snafu_g3a3) | SNAFU_Guns_05 |
+| `SNAFU_M14` | M14 Battle Rifle | .308 Win / 7.62x51mm | SemiAuto, FullAuto | `SNAFU_M14_Mag`<br>`SNAFUM1A_20rdMag` | [list](#snafu_m14) | SNAFU_WW2 |
+| `SNSA58_Gun` | SA58 | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `SA58_DrumMag`<br>`SA58_30RND_BK`<br>`SA58_30RND_WBK`<br>`SA58_30RND_DT`<br>`GCGN_Mag_FAL_50Rnd`<br>vanilla: FAL | [list](#snsa58_gun) | Guns_01 |
+| `Snafu_ScarH_Black_GUN` | SNAFU Scar-H BK | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | [list](#snafu_scarh_black_gun) | SNAFU_Guns_03 |
+| `Snafu_ScarH_DKMC_GUN` | SNAFU Scar-H DKMC | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | [list](#snafu_scarh_black_gun) | SNAFU_Guns_03 |
+| `Snafu_ScarH_OD_GUN` | SNAFU Scar-H OD | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | [list](#snafu_scarh_black_gun) | SNAFU_Guns_03 |
+| `Snafu_ScarH_Snow_GUN` | SNAFU Scar-H Snow | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | [list](#snafu_scarh_black_gun) | SNAFU_Guns_03 |
+| `Snafu_ScarH_Tan_GUN` | SNAFU Scar-H Tan | .308 Win / 7.62x51mm | FullAuto, SemiAuto | `Snafu_ScarH_25RND_Mag_Tan`<br>`Snafu_ScarH_25RND_Mag_Snow`<br>`Snafu_ScarH_25RND_Mag_OD`<br>`Snafu_ScarH_25RND_Mag_DKMC`<br>`Snafu_ScarH_25RND_Mag_BK`<br>`Modified_SA58_30RND_BK`<br>`Modified_SA58_30RND_WBK`<br>`Modified_SA58_30RND_DT`<br>`SNAFU_ScarH_100RND_Mag_Black`<br>`SNAFU_ScarH_100RND_Mag_Tan` | [list](#snafu_scarh_black_gun) | SNAFU_Guns_03 |
+| `SNAFUASh12` | ASh-12.7 | 12.7x55mm | FullAuto, SemiAuto | `SNAFUASh12_20rdMag` | [list](#snafuash12) | SNAFU_Guns_06 |
+| `SNAFU_AK12A` | AK-12 Assault Rifle | 5.45x39mm | FullAuto, Burst, SemiAuto | `SNAFU_AK12_Mag`<br>`SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | [list](#snafu_ak12a) | SNAFU_Guns |
+| `SNAFU_AEK545_Gun` | SNAFU AEK545 | 5.45x39mm | SemiAuto, FullAuto, Burst | `SNAFU_AK12_Mag`<br>`SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | [list](#snafu_aek545_gun) | SNAFU_Guns_01 |
+| `SNAFU_ADAR_Modular16_GUN` | 5.56 ADAR 16in | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_adar_modular16_gun) | SNAFU_Guns_02 |
+| `SNAFU_AR15_Modular16_GUN` | 5.56 AR15 16in | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_ar15_modular16_gun) | SNAFU_Guns_02 |
+| `M4_6933_Gun` | 5.56 Carbine M4-10in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#m4_6933_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4556_Modular10_GUN` | 5.56 Carbine M4-10in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_m4556_modular10_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4556_Modular14_GUN` | 5.56 Carbine M4-14in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_m4556_modular14_gun) | SNAFU_Guns_02 |
+| `SNAFU_M4556_Modular16_GUN` | 5.56 Carbine M4-16in | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_m4556_modular16_gun) | SNAFU_Guns_02 |
+| `GCGN_M4A1` | 5.56 Carbine M4-Vanilla | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#gcgn_m4a1) | SNAFU_Guns_02 |
+| `SNAFU_M4556_Modular14DV_GUN` | 5.56 Carbine M4-Vanilla | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_m4556_modular14dv_gun) | SNAFU_Guns_02 |
+| `SNAFU_AK19` | AK-19 Assault Rifle | 5.56x45mm | FullAuto, Burst, SemiAuto | vanilla: AK101 | [list](#snafu_ak19) | SNAFU_Guns |
+| `SNAFUAUG_BK` | AUG A3 Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafuaug_bk) | SNAFU_Guns_06 |
+| `SNAFUAUG` | AUG A3 Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafuaug_bk) | SNAFU_Guns_06 |
+| `SNAFU_AK5C` | Ak 5C | 5.56x45mm | FullAuto, SemiAuto | vanilla: STANAG, CMAG | [list](#snafu_ak5c) | SNAFU_Guns_05 |
+| `SNAFU_BR18` | BR18 | 5.56x45mm | FullAuto, SemiAuto | vanilla: STANAG, CMAG | [list](#snafu_br18) | SNAFU_Guns_05 |
+| `SNAFU_CZ805_Gun` | CZ805 | 5.56x45mm | FullAuto, Burst, SemiAuto | `GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_cz805_gun) | SNAFU_Guns_01 |
+| `SNAFUFAMAS` | FAMAS | 5.56x45mm | FullAuto, Burst, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafufamas) | SNAFU_Guns_06 |
+| `SCAR_Gun` | FN SCAR 556 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#scar_gun) | Guns_01 |
+| `GCGN_HK416` | Heckler & Koch HK416 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#gcgn_hk416) | GCGN_Guns |
+| `HK416_Gun` | Heckler & Koch HK416 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#hk416_gun) | Guns_01 |
+| `IA2_Gun` | IA2 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#ia2_gun) | Guns_01 |
+| `SNAFU_LVOA556_GUN` | LVOA 5.56 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_lvoa556_gun) | SNAFU_Guns_02 |
+| `SNAFUMDARCAR_Black` | MDAR Carbine Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARCAR_Green` | MDAR Carbine Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARCAR_Tan` | MDAR Carbine Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARRIF_Black` | MDAR Rifle Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARRIF_Green` | MDAR Rifle Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARRIF_Tan` | MDAR Rifle Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARSBR_Black` | MDAR SBR Black | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARSBR_Green` | MDAR SBR Green | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `SNAFUMDARSBR_Tan` | MDAR SBR Tan | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFUMDAR_30rndMagB`<br>`SNAFUMDAR_30rndMagT`<br>`SNAFUMDAR_60rndMagB`<br>`SNAFUMDAR_60rndMagT`<br>`SNAFUAUG_30rdMag`<br>vanilla: STANAG, CMAG | [list](#snafumdarcar_black) | SNAFU_Guns_02 |
+| `MK18_Gun` | MK18 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#mk18_gun) | Guns_01 |
+| `ACR_Gun` | Remington ACR | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`GCGN_Acr_Mag`<br>vanilla: STANAG, CMAG | [list](#acr_gun) | Guns_01 |
+| `SNAFUSA80` | SA-80 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafusa80) | SNAFU_Guns_06 |
+| `SNAFU_Saint556_Gun` | SAINT VICTOR 5.56 | 5.56x45mm | SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafu_saint556_gun) | SNAFU_Guns_02 |
+| `SG550_Gun` | SG550 | 5.56x45mm | FullAuto, SemiAuto, Burst | `SG550_Mag` | [list](#sg550_gun) | Guns_01 |
+| `SG552_Gun` | SG552 | 5.56x45mm | FullAuto, SemiAuto, Burst | `SG550_Mag` | [list](#sg552_gun) | Guns_01 |
+| `SNAFUTAR21_Black` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafutar21_black) | SNAFU_Guns_06 |
+| `SNAFUTAR21_Green` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafutar21_black) | SNAFU_Guns_06 |
+| `SNAFUTAR21_Tan` | TAR-21 | 5.56x45mm | FullAuto, SemiAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>vanilla: STANAG, CMAG | [list](#snafutar21_black) | SNAFU_Guns_06 |
+| `SNAFU_AK103A` | AK-103 Assault Rifle | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | [list](#snafu_ak103a) | SNAFU_Guns |
+| `SNAFU_MK4710Gun` | MK47 10in | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | [list](#snafu_mk4710gun) | SNAFU_Guns_02 |
+| `SNAFU_MK4716Gun` | MK47 16in | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | [list](#snafu_mk4716gun) | SNAFU_Guns_02 |
+| `GCGN_Vepr` | VEPR | 7.62x39mm | SemiAuto | `GCGN_VEPR_10rnd` | [list](#gcgn_vepr) | GCGN_Guns |
+| `SNAFU_M70` | Zastava M70 | 7.62x39mm | FullAuto, SemiAuto | `SNAFU_AK103_Mag`<br>vanilla: AKM, AKM Palm, AKM Drum | [list](#snafu_m70) | SNAFU_WW2 |
+| `SNAFUSR3_Vikhr` | SR-3 Assault Rifle | 9x39mm / 9x39mm AP | SemiAuto, FullAuto | `Mag_VSS_10Rnd`<br>`Mag_VAL_20Rnd`<br>`SR3_Vikhr_Mag`<br>`SNAFU_SR3Vikhr_Mag` | [list](#snafusr3_vikhr) | SNAFU_Guns_03 |
 
 ## Light Machine Guns (LMG)
 
 Belt-fed or high-capacity automatic weapons. 10 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `SNAFU_M60` | M60 | .308 Win / 7.62x51mm | FullAuto | `SNAFU_M60_100rdMag` | `weaponWrap`, `weaponOptics`, `weaponFlashlight`, `SNAFUM60Handguard`, `SNAFUM60ScopeMount` | SNAFU_Guns_05 |
-| `SNAFU_RPK16_Black` | RPK-16 Black | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | `weaponOptics`, `weaponFlashlight`, `weaponWrap`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFU_RPK16_Green` | RPK-16 Green | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | `weaponOptics`, `weaponFlashlight`, `weaponWrap`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFU_RPK16_Tan` | RPK-16 Tan | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | `weaponOptics`, `weaponFlashlight`, `weaponWrap`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns |
-| `GCGN_M249` | M249 | 5.56x45mm | FullAuto | `GCGN_M249_Mag` | `weaponOptics`, `weaponWrap`, `weaponFlashlight`, `SNAFUPEQLASER`, `weaponGripKAAR`, `suppressorImpro`, `SNAFUM249Stock`, `SNAFUM249Grip`, `SNAFUM249HG`, `SNAFUM249Bipod`, `FGRIP` | GCGN_Guns |
+| `SNAFU_M60` | M60 | .308 Win / 7.62x51mm | FullAuto | `SNAFU_M60_100rdMag` | [list](#snafu_m60) | SNAFU_Guns_05 |
+| `SNAFU_RPK16_Black` | RPK-16 Black | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | [list](#snafu_rpk16_black) | SNAFU_Guns |
+| `SNAFU_RPK16_Green` | RPK-16 Green | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | [list](#snafu_rpk16_black) | SNAFU_Guns |
+| `SNAFU_RPK16_Tan` | RPK-16 Tan | 5.45x39mm | FullAuto, SemiAuto | `SNAFU_RPK16_Black_Mag`<br>`SNAFU_RPK16_Green_Mag`<br>`SNAFU_RPK16_Tan_Mag`<br>vanilla: AK74 | [list](#snafu_rpk16_black) | SNAFU_Guns |
+| `GCGN_M249` | M249 | 5.56x45mm | FullAuto | `GCGN_M249_Mag` | [list](#gcgn_m249) | GCGN_Guns |
 | `SNAFU_U100` | Ultimax 100 | 5.56x45mm | FullAuto | `SNAFU_PMAG556_Black`<br>`SNAFU_PMAG556_Grey`<br>`SNAFU_PMAG556_OD`<br>`SNAFU_PMAG556_Tan`<br>`SNAFU_BMAG556_Black`<br>`SNAFU_BMAG556_Tan`<br>`SNAFU_CMAG30556_Black`<br>`SNAFU_CMAG30556_Tan`<br>`SNAFU_CMAG40556_Black`<br>`SNAFU_CMAG40556_Tan`<br>`SNAFU_CMAG60556_Black`<br>`SNAFU_CMAG60556_Tan`<br>`GCGN_HK416_Mag`<br>`SNAFU_U100_Mag`<br>vanilla: STANAG, CMAG | - | SNAFU_WW2 |
-| `SNAFU_Bren` | Bren | 7.62x39mm | FullAuto | `SNAFU_Bren_30rdMag` | `weaponWrap`, `suppressorImpro` | SNAFU_Guns_05 |
-| `SNAFURPD` | RPD | 7.62x39mm | FullAuto | `SNAFURPD_100rdMag` | `weaponWrap`, `weaponMuzzleAK` | SNAFU_Guns_05 |
-| `Snafu_PKP_NBlack_GUN` | SNAFU PKP | 7.62x54mmR | FullAuto | `Snafu_PKP_250RND_Mag` | `weaponMuzzleAK`, `weaponWrap`, `PKPBIPOD`, `weaponOpticsAK`, `suppressorImpro` | SNAFU_Guns_01 |
-| `Snafu_PKP_Black_GUN` | SNAFU Rusty PKP | 7.62x54mmR | FullAuto | `Snafu_PKP_250RND_Mag` | `weaponMuzzleAK`, `weaponWrap`, `PKPBIPOD`, `weaponOpticsAK`, `suppressorImpro` | SNAFU_Guns_01 |
+| `SNAFU_Bren` | Bren | 7.62x39mm | FullAuto | `SNAFU_Bren_30rdMag` | [list](#snafu_bren) | SNAFU_Guns_05 |
+| `SNAFURPD` | RPD | 7.62x39mm | FullAuto | `SNAFURPD_100rdMag` | [list](#snafurpd) | SNAFU_Guns_05 |
+| `Snafu_PKP_NBlack_GUN` | SNAFU PKP | 7.62x54mmR | FullAuto | `Snafu_PKP_250RND_Mag` | [list](#snafu_pkp_nblack_gun) | SNAFU_Guns_01 |
+| `Snafu_PKP_Black_GUN` | SNAFU Rusty PKP | 7.62x54mmR | FullAuto | `Snafu_PKP_250RND_Mag` | [list](#snafu_pkp_nblack_gun) | SNAFU_Guns_01 |
 
 ## Submachine Guns (SMG) & PDWs
 
 Pistol-caliber and PDW-caliber automatic weapons. 17 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `SNAFUVECTOR_45acp_GUN` | KRISS Vector 45ACP | .45 ACP | FullAuto, SemiAuto, Burst | `SNAFUVECTOR_45acp_Mag` | `weaponOptics`, `pistolMuzzle`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_PDW_45ACP` | PDW 45ACP | .45 ACP | FullAuto, SemiAuto | `SNAFU_PDW_45ACP_Mag` | `weaponOptics`, `pistolMuzzle`, `weaponWrap`, `weaponFlashlight`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFUThompsonMk2` | Thompson Mk2 | .45 ACP | FullAuto, SemiAuto | `SNAFUThompsonMk2_30rdMag` | `weaponWrap`, `pistolMuzzle`, `suppressorImpro`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `weaponOptics` | SNAFU_Guns_06 |
-| `GCGN_MP7` | MP7 | 4.6x30mm | SemiAuto, FullAuto | `GCGN_MP7_40Rnd` | `pistolMuzzle`, `weaponOptics`, `suppressorImpro` | GCGN_Guns |
-| `SNAFUP90` | P90 | 5.7x28mm | FullAuto, SemiAuto | `SNAFUP90_50rdMag` | `weaponMuzzleM4`, `weaponOptics`, `weaponWrap`, `weaponFlashlight`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUPPSh` | PPSh-41 | 7.62x25mm Tokarev | FullAuto | `SNAFUPPSh_71rdMag` | `weaponWrap` | SNAFU_Guns_05 |
-| `SNAFUPPSKN` | PPSKN-42 | 7.62x39mm | FullAuto, SemiAuto | `SNAFUPPSKN_30rdMag` | `weaponWrap`, `weaponOptics`, `weaponMuzzleAK`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFU_Agram_GUN` | Agram 2000 | 9x19mm | FullAuto, SemiAuto | `SNAFU_Agram_32rnd_Mag` | `weaponMuzzleM4`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFUKH9` | KH9 | 9x19mm | SemiAuto | `SNAFUKH9_30rdMag` | `pistolMuzzle`, `weaponOptics`, `weaponFlashlight`, `weaponGripKAAR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_06 |
-| `SNAFUVECTOR_9mm_GUN` | KRISS Vector 9mm | 9x19mm | FullAuto, SemiAuto, Burst | `SNAFUVECTOR_9mm_Mag` | `weaponOptics`, `pistolMuzzle`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_MP9_GUN` | MP9 | 9x19mm | FullAuto, SemiAuto, Burst | `SNAFU_MP9_30rnd_Mag` | `pistolMuzzle`, `weaponOptics`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFU_PDW_9mm` | PDW 9mm | 9x19mm | FullAuto, SemiAuto | `SNAFU_PDW_9mm_Mag` | `weaponOptics`, `pistolMuzzle`, `weaponWrap`, `weaponFlashlight`, `suppressorImpro` | SNAFU_Guns |
-| `SNAFU_MPX_GUN` | SIG Sauer MPX | 9x19mm | FullAuto, SemiAuto | `SNAFU_MPX_30rnd_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponMuzzleM4`, `weaponGripKAAR`, `weaponGripCQR`, `snafuar15afg`, `FGRIP`, `suppressorImpro` | SNAFU_Guns_01 |
-| `SNAFUSten` | STEN Mk III | 9x19mm | FullAuto, SemiAuto | `SNAFUSten_32rdMag` | `weaponWrap`, `pistolMuzzle` | SNAFU_Guns_05 |
-| `Tec9_Gun` | Tec9 | 9x19mm | SemiAuto, Burst | `Tec9_Mag` | `pistolMuzzle`, `suppressorImpro` | Guns_01 |
-| `SNAFUUzi` | UZI | 9x19mm | FullAuto, SemiAuto | `SNAFUUzi_32rdMag`<br>`SNAFUUzi_72rdMag` | `weaponWrap`, `pistolMuzzle`, `suppressorImpro`, `weaponOptics` | SNAFU_Guns_06 |
-| `GCGN_Vityaz` | Vityaz-SN PP19-01 | 9x19mm | SemiAuto, FullAuto | `GCGN_Vityaz_Mag` | `weaponButtstockAK`, `WeaponHandguardAK`, `weaponOpticsAK`, `weaponOptics`, `weaponFlashlight`, `weaponWrap`, `pistolMuzzle`, `suppressorImpro` | GCGN_Guns |
+| `SNAFUVECTOR_45acp_GUN` | KRISS Vector 45ACP | .45 ACP | FullAuto, SemiAuto, Burst | `SNAFUVECTOR_45acp_Mag` | [list](#snafuvector_45acp_gun) | SNAFU_Guns_01 |
+| `SNAFU_PDW_45ACP` | PDW 45ACP | .45 ACP | FullAuto, SemiAuto | `SNAFU_PDW_45ACP_Mag` | [list](#snafu_pdw_45acp) | SNAFU_Guns |
+| `SNAFUThompsonMk2` | Thompson Mk2 | .45 ACP | FullAuto, SemiAuto | `SNAFUThompsonMk2_30rdMag` | [list](#snafuthompsonmk2) | SNAFU_Guns_06 |
+| `GCGN_MP7` | MP7 | 4.6x30mm | SemiAuto, FullAuto | `GCGN_MP7_40Rnd` | [list](#gcgn_mp7) | GCGN_Guns |
+| `SNAFUP90` | P90 | 5.7x28mm | FullAuto, SemiAuto | `SNAFUP90_50rdMag` | [list](#snafup90) | SNAFU_Guns_06 |
+| `SNAFUPPSh` | PPSh-41 | 7.62x25mm Tokarev | FullAuto | `SNAFUPPSh_71rdMag` | [list](#snafuppsh) | SNAFU_Guns_05 |
+| `SNAFUPPSKN` | PPSKN-42 | 7.62x39mm | FullAuto, SemiAuto | `SNAFUPPSKN_30rdMag` | [list](#snafuppskn) | SNAFU_Guns_06 |
+| `SNAFU_Agram_GUN` | Agram 2000 | 9x19mm | FullAuto, SemiAuto | `SNAFU_Agram_32rnd_Mag` | [list](#snafu_agram_gun) | SNAFU_Guns_01 |
+| `SNAFUKH9` | KH9 | 9x19mm | SemiAuto | `SNAFUKH9_30rdMag` | [list](#snafukh9) | SNAFU_Guns_06 |
+| `SNAFUVECTOR_9mm_GUN` | KRISS Vector 9mm | 9x19mm | FullAuto, SemiAuto, Burst | `SNAFUVECTOR_9mm_Mag` | [list](#snafuvector_45acp_gun) | SNAFU_Guns_01 |
+| `SNAFU_MP9_GUN` | MP9 | 9x19mm | FullAuto, SemiAuto, Burst | `SNAFU_MP9_30rnd_Mag` | [list](#snafu_mp9_gun) | SNAFU_Guns_01 |
+| `SNAFU_PDW_9mm` | PDW 9mm | 9x19mm | FullAuto, SemiAuto | `SNAFU_PDW_9mm_Mag` | [list](#snafu_pdw_45acp) | SNAFU_Guns |
+| `SNAFU_MPX_GUN` | SIG Sauer MPX | 9x19mm | FullAuto, SemiAuto | `SNAFU_MPX_30rnd_Mag` | [list](#snafu_mpx_gun) | SNAFU_Guns_01 |
+| `SNAFUSten` | STEN Mk III | 9x19mm | FullAuto, SemiAuto | `SNAFUSten_32rdMag` | [list](#snafusten) | SNAFU_Guns_05 |
+| `Tec9_Gun` | Tec9 | 9x19mm | SemiAuto, Burst | `Tec9_Mag` | [list](#tec9_gun) | Guns_01 |
+| `SNAFUUzi` | UZI | 9x19mm | FullAuto, SemiAuto | `SNAFUUzi_32rdMag`<br>`SNAFUUzi_72rdMag` | [list](#snafuuzi) | SNAFU_Guns_06 |
+| `GCGN_Vityaz` | Vityaz-SN PP19-01 | 9x19mm | SemiAuto, FullAuto | `GCGN_Vityaz_Mag` | [list](#gcgn_vityaz) | GCGN_Guns |
 
 ## Shotguns
 
 12 gauge weapons. 8 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `AA12_Gun` | AA12 | 12 Gauge | SemiAuto, FullAuto | `AA12_Mag` | `weaponFlashlight`, `weaponOptics`, `weaponGripKAAR`, `snafuar15afg`, `SNAFUShotgunchoke`, `suppressorImpro` | Guns_01 |
-| `GCGN_BenelliM4` | Benelli M2 | 12 Gauge | SemiAuto | internal (loads rounds directly) | `weaponFlashlight`, `weaponOptics`, `weaponWrap`, `weaponMuzzleM4`, `SNAFUShotgunchoke`, `suppressorImpro` | GCGN_Guns |
-| `SN_Auto_Shotgun` | SN Auto Shotgun | 12 Gauge | Single, FullAuto | `SN_Auto_Shotgun_Mag` | `weaponWrap`, `SNAFUShotgunchoke`, `weaponOptics` | SNAFU_Guns |
-| `SN_M870` | SN M870 | 12 Gauge | Single | internal (loads rounds directly) | `weaponWrap`, `SNAFUShotgunchoke`, `weaponFlashlight` | SNAFU_Guns |
-| `Spas12_Gun` | Spas12 | 12 Gauge | SemiAuto | internal (loads rounds directly) | `weaponWrap`, `SNAFUShotgunchoke`, `suppressorImpro` | Guns_01 |
-| `SNAFU_TP82S` | TP-82 Shotgun | 12 Gauge | Single, Burst | internal (loads rounds directly) | `pistolOptics` | SNAFU_Guns |
+| `AA12_Gun` | AA12 | 12 Gauge | SemiAuto, FullAuto | `AA12_Mag` | [list](#aa12_gun) | Guns_01 |
+| `GCGN_BenelliM4` | Benelli M2 | 12 Gauge | SemiAuto | internal (loads rounds directly) | [list](#gcgn_benellim4) | GCGN_Guns |
+| `SN_Auto_Shotgun` | SN Auto Shotgun | 12 Gauge | Single, FullAuto | `SN_Auto_Shotgun_Mag` | [list](#sn_auto_shotgun) | SNAFU_Guns |
+| `SN_M870` | SN M870 | 12 Gauge | Single | internal (loads rounds directly) | [list](#sn_m870) | SNAFU_Guns |
+| `Spas12_Gun` | Spas12 | 12 Gauge | SemiAuto | internal (loads rounds directly) | [list](#spas12_gun) | Guns_01 |
+| `SNAFU_TP82S` | TP-82 Shotgun | 12 Gauge | Single, Burst | internal (loads rounds directly) | [list](#snafu_tp82s) | SNAFU_Guns |
 | `SNAFU_Trenchgun` | Trench Gun | 12 Gauge | Single | internal (loads rounds directly) | - | SNAFU_WW2 |
-| `VR80_Gun` | VR80 Shotgun | 12 Gauge | Single, FullAuto | `VR80_Magazine_5rd`<br>`VR80_Magazine_10rd` | `weaponFlashlight`, `weaponWrap`, `weaponOptics`, `SNAFUShotgunchoke`, `suppressorImpro` | Guns_01 |
+| `VR80_Gun` | VR80 Shotgun | 12 Gauge | Single, FullAuto | `VR80_Magazine_5rd`<br>`VR80_Magazine_10rd` | [list](#vr80_gun) | Guns_01 |
 
 ## Pistols & Revolvers
 
 Sidearms. 11 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `SNAFUChiappaRhino` | Chiappa Rhino | .357 Magnum | Single | internal (loads rounds directly) | `RevolverCylinderSNAFUChiappaRhino`, `RevolverEjectorSNAFUChiappaRhino` | SNAFU_Guns_05 |
-| `SNAFUAPS` | APS | .380 ACP | SemiAuto, FullAuto | `SNAFUAPS_20rdMag` | `pistolMuzzle` | SNAFU_Guns_06 |
-| `SNAFUSWM629` | Smith & Wesson Model 629 | .44 Magnum | Single | internal (loads rounds directly) | `RevolverCylinderSNAFUSWM629`, `RevolverEjectorSNAFUSWM629` | SNAFU_Guns_05 |
-| `SN_USP` | SN USP | .45 ACP | Single | `SN_USP_Mag` | `pistolOptics`, `pistolMuzzle`, `pistolFlashlight` | SNAFU_Guns |
-| `SNAFUMagnum500` | Model 500 Competitor | .500 S&W Magnum | Single | internal (loads rounds directly) | `RevolverCylinderSNAFUMagnum500`, `RevolverEjectorSNAFUMagnum500` | SNAFU_Guns_06 |
-| `SNAFU_Fort12_GUN` | Fort12 | 9x19mm | SemiAuto | `SNAFU_Fort12_12rnd_Mag` | `pistolOptics`, `pistolMuzzle` | SNAFU_Guns_01 |
-| `SNAFU_PL14HQP` | Lebedev-PL14 Pistol | 9x19mm | Single | `SNAFU_PL14HQP_Mag` | `pistolOptics`, `pistolFlashlight`, `pistolMuzzle` | SNAFU_Guns |
-| `SN_Glock19` | SN Glock19 | 9x19mm | Single | vanilla: Glock | `pistolOptics`, `pistolFlashlight`, `pistolMuzzle` | SNAFU_Guns |
-| `SN_M9` | SN M9 | 9x19mm | Single | `SN_M9_Mag` | `pistolMuzzle` | SNAFU_Guns |
-| `SN_Mp443` | SN Mp443 | 9x19mm | Single | `SN_Mp443_Mag` | `pistolOptics`, `pistolFlashlight`, `pistolMuzzle` | SNAFU_Guns |
-| `SN_Springfield` | XD Sub-Compact | 9x19mm | Single | `SN_Springfield_Mag` | `pistolFlashlight`, `pistolMuzzle` | SNAFU_Guns |
+| `SNAFUChiappaRhino` | Chiappa Rhino | .357 Magnum | Single | internal (loads rounds directly) | [list](#snafuchiapparhino) | SNAFU_Guns_05 |
+| `SNAFUAPS` | APS | .380 ACP | SemiAuto, FullAuto | `SNAFUAPS_20rdMag` | [list](#snafuaps) | SNAFU_Guns_06 |
+| `SNAFUSWM629` | Smith & Wesson Model 629 | .44 Magnum | Single | internal (loads rounds directly) | [list](#snafuswm629) | SNAFU_Guns_05 |
+| `SN_USP` | SN USP | .45 ACP | Single | `SN_USP_Mag` | [list](#sn_usp) | SNAFU_Guns |
+| `SNAFUMagnum500` | Model 500 Competitor | .500 S&W Magnum | Single | internal (loads rounds directly) | [list](#snafumagnum500) | SNAFU_Guns_06 |
+| `SNAFU_Fort12_GUN` | Fort12 | 9x19mm | SemiAuto | `SNAFU_Fort12_12rnd_Mag` | [list](#snafu_fort12_gun) | SNAFU_Guns_01 |
+| `SNAFU_PL14HQP` | Lebedev-PL14 Pistol | 9x19mm | Single | `SNAFU_PL14HQP_Mag` | [list](#snafu_pl14hqp) | SNAFU_Guns |
+| `SN_Glock19` | SN Glock19 | 9x19mm | Single | vanilla: Glock | [list](#sn_glock19) | SNAFU_Guns |
+| `SN_M9` | SN M9 | 9x19mm | Single | `SN_M9_Mag` | [list](#sn_m9) | SNAFU_Guns |
+| `SN_Mp443` | SN Mp443 | 9x19mm | Single | `SN_Mp443_Mag` | [list](#sn_mp443) | SNAFU_Guns |
+| `SN_Springfield` | XD Sub-Compact | 9x19mm | Single | `SN_Springfield_Mag` | [list](#sn_springfield) | SNAFU_Guns |
 
 ## Test / Duplicate Classes
 
 Spawnable (scope=2) classes that look like test or placeholder entries. Probably keep them out of your types.xml. 3 classes.
 
-| Class name | Name | Caliber | Fire modes | Magazines | Attachment slots | Mod |
+| Class name | Name | Caliber | Fire modes | Magazines | Attachments | Mod |
 |---|---|---|---|---|---|---|
-| `SN_AKM` | $STR_cfgWeapons_AKM0 | 7.62x39mm (inherits vanilla AKM) | inherits AKM | inherits vanilla AKM | `FGRIP`, `snafu50bmg`, `sr25Muzzle`, `sr25bipod`, `SR3S`, `snafu300acsupp`, `snafuar15afg`, `SNAFU_SKS_Bayonet`, `SNAFU_M14Optic` | SNAFU_Guns_01 |
-| `SN_AKM_TESTBED` | testing AKM | 7.62x39mm (inherits vanilla AKM) | inherits AKM | inherits vanilla AKM | `FGRIP`, `snafu50bmg`, `sr25Muzzle`, `sr25bipod`, `SR3S`, `snafu300acsupp`, `snafuar15afg`, `SNAFU_SKS_Bayonet`, `SNAFU_M14Optic` | SNAFU_Guns_01 |
-| `SR3_Vikhr_Gun` | REPLACE SR-3 Assault Rifle | 9x39mm / 9x39mm AP | SemiAuto, FullAuto | `Mag_VSS_10Rnd`<br>`Mag_VAL_20Rnd`<br>`SR3_Vikhr_Mag`<br>`SNAFU_SR3Vikhr_Mag` | `weaponOpticsAK`, `weaponWrap`, `SNAFUWSR3Stock`, `SNAFUSR3HG`, `SNAFUSR3Grip`, `weaponMuzzelSNAFU`, `SR3S` | SNAFU_Guns_03 |
+| `SN_AKM` | $STR_cfgWeapons_AKM0 | 7.62x39mm (inherits vanilla AKM) | inherits AKM | inherits vanilla AKM | [list](#sn_akm) | SNAFU_Guns_01 |
+| `SN_AKM_TESTBED` | testing AKM | 7.62x39mm (inherits vanilla AKM) | inherits AKM | inherits vanilla AKM | [list](#sn_akm_testbed) | SNAFU_Guns_01 |
+| `SR3_Vikhr_Gun` | REPLACE SR-3 Assault Rifle | 9x39mm / 9x39mm AP | SemiAuto, FullAuto | `Mag_VSS_10Rnd`<br>`Mag_VAL_20Rnd`<br>`SR3_Vikhr_Mag`<br>`SNAFU_SR3Vikhr_Mag` | [list](#sr3_vikhr_gun) | SNAFU_Guns_03 |
 
 ## Attachments
 
@@ -520,6 +520,1447 @@ The optics come in four mount versions of the same scope: normal (`weaponOptics`
 | `SNAFU_M60_ScopeMount` | M60 Scope Mount | `SNAFUM60ScopeMount` | SNAFU_Guns_05 |
 | `SNAFU_Mosin_Mount_Base` | SNAFU Mosin Mount | - | SNAFU_Scopes |
 | `SNAFU_SKS_Bayonet` | Zastava M59/66 PAP Byonet | `SNAFU_SKS_Bayonet` | SNAFU_WW2 |
+
+## Attachments per weapon
+
+Which SNAFU attachments (by class name) fit each weapon. Color variants with the same attachments share one entry.
+**Vanilla-only slots** take only vanilla DayZ items (for example `weaponWrap` = ghillie wraps). Vanilla slots like `weaponOptics` or `weaponMuzzleM4` also accept vanilla items on top of the SNAFU ones listed.
+
+### Sniper Rifles
+
+#### SNAFU_FRF2
+
+**FR-F2 Sniper Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HWalther`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M700
+
+**Remington Model 700**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M48
+
+**Zastava M48**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_MAimpoint_ACO`, `SNAFU_MAimpoint_M5`, `SNAFU_MElcan`, `SNAFU_MEOTech_EXPS3`, `SNAFU_MHuntingOptic`, `SNAFU_MKahles`, `SNAFU_MLeupold_Mark8`, `SNAFU_MNightforce`, `SNAFU_MTango6T_Black`, `SNAFU_MTango6T_Snow`, `SNAFU_MTango6T_Tan`, `SNAFU_MTango6T_Wood`, `SNAFU_MTrijicon`, `SNAFU_MTrijicon_Docter`, `SNAFU_MWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AWM_GUN
+
+**AWM 338**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUM98B_Atac_GUN
+
+**Atac M98B** · Variants: `SNAFUM98B_Atac_GUN`, `SNAFUM98B_Digi_GUN`, `SNAFUM98B_Ger_GUN`, `SNAFUM98B_Mc_GUN`, `SNAFUM98B_Snow_GUN`, `SNAFUM98B_Wood_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUT5000_Dkmcc_GUN
+
+**DKMC T5000** · Variants: `SNAFUT5000_Dkmcc_GUN`, `SNAFUT5000_Snow_GUN`, `SNAFUT5000_Wood_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUDVL10M2
+
+**DVL-10 M2**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUM24_GUN
+
+**SNAFU M24A3**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUSRSA2
+
+**SRS A2**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUTac21
+
+**Tac-21**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M300BK
+
+**CheyTac M300 Black** · Variants: `SNAFU_M300BK`, `SNAFU_M300TAN`, `SNAFU_M300Green`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W` |
+| Grips & Foregrips | `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M200
+
+**M200 CheyTac Black** · Variants: `GCGN_M200`, `SNAFU_M200Green`, `SNAFU_M200SNOW`, `GCGN_M200_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W` |
+| Stocks | `SNAFU_M200S_BK`, `SNAFU_M200S_Green`, `SNAFU_M200S_Snow`, `SNAFU_M200S_Tan` |
+| Bipods | `SNAFU_M200B_BK` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUM96
+
+**M96**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AS50_GUN
+
+**AS50**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M82_Barret
+
+**GCGN M82 Barret Black**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUGM6Lynx
+
+**GM6 Lynx**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUAX50_GUN
+
+**SNAFU AX50**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUVSSK
+
+**VSSK**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Bipods | `SNAFU_VSSKbipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUAlligator
+
+**Snipex Alligator**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Vanilla-only slots | `weaponWrap` |
+
+### DMR / Marksman Rifles
+
+#### GCGN_M1Garand
+
+**M1Garand**
+
+| Type | Attachments |
+|---|---|
+| Optics | `GCGN_M84_Optic` |
+| Suppressors & Muzzle Devices | `GCGN_M1Garand_FlashHider`, `GCGN_M1Garand_Supp` |
+| Other | `GCGN_M1Garand_Bayonet` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNHK417_Gun
+
+**Heckler & Koch HK417**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M110_Black
+
+**M110 Semi-Automatic Black** · Variants: `GCGN_M110_Black`, `GCGN_M110_Green`, `GCGN_M110_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUM1A_Black
+
+**M1A** · Variants: `SNAFUM1A_Black`, `SNAFUM1A_Green`, `SNAFUM1A_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_Saint_Gun
+
+**SAINT VICTOR 308**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFURSASS_dkmc_GUN
+
+**SNAFU RSASS DKMC** · Variants: `SNAFURSASS_dkmc_GUN`, `SNAFURSASS_od_GUN`, `SNAFURSASS_Wood_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_SR25_Gun
+
+**SNAFU SR25**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M76
+
+**Zastava M76**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUGevar_Black
+
+**Gevar Mk-3 Black** · Variants: `SNAFUGevar_Black`, `SNAFUGevar_Green`, `SNAFUGevar_Grey`, `SNAFUGevar_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUKivaari_Black_GUN
+
+**Kivaari Black** · Variants: `SNAFUKivaari_Black_GUN`, `SNAFUKivaari_Grey_GUN`, `SNAFUKivaari_Snow_GUN`, `SNAFUKivaari_Tan_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_MAR10_Black_GUN
+
+**MAR10 Black**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFUKivaari_338_Supp` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUMarlin1895
+
+**Marlin 1895**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_CALI_GUN
+
+**JJFU Nomad**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUMk12
+
+**Mk 12 Mod 1**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_RDB
+
+**RDB-17**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_SKS
+
+**Zastava M59/66 PAP**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_MAimpoint_ACO`, `SNAFU_MAimpoint_M5`, `SNAFU_MElcan`, `SNAFU_MEOTech_EXPS3`, `SNAFU_MHuntingOptic`, `SNAFU_MKahles`, `SNAFU_MLeupold_Mark8`, `SNAFU_MNightforce`, `SNAFU_MTango6T_Black`, `SNAFU_MTango6T_Snow`, `SNAFU_MTango6T_Tan`, `SNAFU_MTango6T_Wood`, `SNAFU_MTrijicon`, `SNAFU_MTrijicon_Docter`, `SNAFU_MWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Other | `SNAFU_SKS_Bayonet` |
+| Vanilla-only slots | `weaponWrap` |
+
+### Assault & Battle Rifles (AR)
+
+#### SNAFU_AR15SPRBK
+
+**300AC AR15 BK** · Variants: `SNAFU_AR15SPRBK`, `SNAFUAR15_SPR_Black_GUN`, `SNAFUAR15_SPR_Tan_GUN`, `SNAFU_AR15SPRTAN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR15`, `SNAFU_MK15` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M4300AC_10_GUN
+
+**300AC Carbine M4-10in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M4300AC_14_GUN
+
+**300AC Carbine M4-14in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap`, `WeaponHandguardM4` |
+
+#### SNAFU_M4300AC_16_GUN
+
+**300AC Carbine M4-16in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MCMR15`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK15`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M4300AC_14DV_GUN
+
+**300AC Carbine M4-Vanilla**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap`, `WeaponHandguardM4` |
+
+#### SNAFUHoneyBadger_Black
+
+**AAC Honey Badger** · Variants: `SNAFUHoneyBadger_Black`, `SNAFUHoneyBadger_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_KAC_Gun
+
+**KAC PDW**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+
+#### SNAFU_AK308
+
+**AK-308 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_AK_HG` |
+| Stocks | `SNAFU_AK19_Stock`, `SNAFU_AK_AR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUDSASA58_Gun
+
+**DSA SA58**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Handguards | `SNAFU_DSAHG1`, `SNAFU_DSAHG2` |
+| Stocks | `SA58_Stock`, `SNAFUDSASA58_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_G3A3
+
+**G3A3**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M14
+
+**M14 Battle Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_M14Optic` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNSA58_Gun
+
+**SA58**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Stocks | `SA58_Stock`, `SNAFUDSASA58_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### Snafu_ScarH_Black_GUN
+
+**SNAFU Scar-H BK** · Variants: `Snafu_ScarH_Black_GUN`, `Snafu_ScarH_DKMC_GUN`, `Snafu_ScarH_OD_GUN`, `Snafu_ScarH_Snow_GUN`, `Snafu_ScarH_Tan_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HAimpoint_ACO`, `SNAFU_HAimpoint_M5`, `SNAFU_HElcan`, `SNAFU_HEOTech_EXPS3`, `SNAFU_HHuntingOptic`, `SNAFU_HKahles`, `SNAFU_HLeupold_Mark8`, `SNAFU_HNightforce`, `SNAFU_HTrijicon`, `SNAFU_HTrijicon_Docter`, `SNAFU_HuntingOptic`, `SNAFU_HWalther`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUASh12
+
+**ASh-12.7**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AK12A
+
+**AK-12 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_AK_HG` |
+| Stocks | `SNAFU_AK19_Stock`, `SNAFU_AK_AR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AEK545_Gun
+
+**SNAFU AEK545**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+
+#### SNAFU_ADAR_Modular16_GUN
+
+**5.56 ADAR 16in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MCMR15`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK15`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AR15_Modular16_GUN
+
+**5.56 AR15 16in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MCMR15`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK15`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### M4_6933_Gun
+
+**5.56 Carbine M4-10in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M4556_Modular10_GUN
+
+**5.56 Carbine M4-10in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M4556_Modular14_GUN
+
+**5.56 Carbine M4-14in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap`, `WeaponHandguardM4` |
+
+#### SNAFU_M4556_Modular16_GUN
+
+**5.56 Carbine M4-16in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_GADAR`, `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MCMR15`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK15`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M4A1
+
+**5.56 Carbine M4-Vanilla**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap`, `WeaponHandguardM4` |
+
+#### SNAFU_M4556_Modular14DV_GUN
+
+**5.56 Carbine M4-Vanilla**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap`, `WeaponHandguardM4` |
+
+#### SNAFU_AK19
+
+**AK-19 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_AK_HG` |
+| Stocks | `SNAFU_AK19_Stock`, `SNAFU_AK_AR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUAUG_BK
+
+**AUG A3 Black** · Variants: `SNAFUAUG_BK`, `SNAFUAUG`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AK5C
+
+**Ak 5C**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_BR18
+
+**BR18**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_CZ805_Gun
+
+**CZ805**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+
+#### SNAFUFAMAS
+
+**FAMAS**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SCAR_Gun
+
+**FN SCAR 556**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_HK416
+
+**Heckler & Koch HK416**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### HK416_Gun
+
+**Heckler & Koch HK416**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### IA2_Gun
+
+**IA2**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_LVOA556_GUN
+
+**LVOA 5.56**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR15`, `SNAFU_MK15` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUMDARCAR_Black
+
+**MDAR Carbine Black** · Variants: `SNAFUMDARCAR_Black`, `SNAFUMDARCAR_Green`, `SNAFUMDARCAR_Tan`, `SNAFUMDARRIF_Black`, `SNAFUMDARRIF_Green`, `SNAFUMDARRIF_Tan`, `SNAFUMDARSBR_Black`, `SNAFUMDARSBR_Green`, `SNAFUMDARSBR_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### MK18_Gun
+
+**MK18**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### ACR_Gun
+
+**Remington ACR**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUSA80
+
+**SA-80**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_Saint556_Gun
+
+**SAINT VICTOR 5.56**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SADAR_Stock`, `SNAFU_SBA_Stock`, `SNAFU_SCQR_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFU_GIGripColtA2`, `SNAFU_PistolGripColtA2`, `SNAFU_TACGripColtA2_BK`, `SNAFU_TACGripColtA2_Grey`, `SNAFU_TACGripColtA2_OD`, `SNAFU_TACGripColtA2_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SG550_Gun
+
+**SG550**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SG552_Gun
+
+**SG552**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUTAR21_Black
+
+**TAR-21** · Variants: `SNAFUTAR21_Black`, `SNAFUTAR21_Green`, `SNAFUTAR21_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_AK103A
+
+**AK-103 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_MK4710Gun
+
+**MK47 10in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MK10`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SBA_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_MK4716Gun
+
+**MK47 16in**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MK47Muzzel`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_MuzzelFF`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_HG625`, `SNAFU_HGGS`, `SNAFU_HGMlok`, `SNAFU_HGMlok_Tan`, `SNAFU_LVOAHG`, `SNAFU_MCMR07`, `SNAFU_MCMR08`, `SNAFU_MCMR09`, `SNAFU_MCMR10`, `SNAFU_MCMR13`, `SNAFU_MCMR15`, `SNAFU_MK10`, `SNAFU_MK13`, `SNAFU_MK15`, `SNAFU_MK47HG`, `SNAFU_MK7`, `SNAFU_MK9`, `SNAFU_MOEFS`, `SNAFU_MOEFS_Grey`, `SNAFU_MOEFS_OD`, `SNAFU_MOEFS_Tan`, `SNAFU_MOELS`, `SNAFU_MOELS_Grey`, `SNAFU_MOELS_OD`, `SNAFU_MOELS_Tan` |
+| Stocks | `SNAFU_M4SS_Stock`, `SNAFU_MK47_Stock`, `SNAFU_MOE_Stock`, `SNAFU_PRSGen3_Stock`, `SNAFU_SBA_Stock`, `SNAFU_UBR_Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Bipods | `SNAFU_AtlasBipod`, `SNAFU_Bipod`, `SNAFU_ModBipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_Vepr
+
+**VEPR**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_M70
+
+**Zastava M70**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUSR3_Vikhr
+
+**SR-3 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_MK47Muzzel`, `SNAFU_MuzzelFF`, `SNAFU_SR3Vikhr_Supp`, `SR3_Vikhr_Supp`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_SR3HG` |
+| Stocks | `SNAFU_WSR3Stock` |
+| Grips & Foregrips | `SNAFU_SR3Grip` |
+| Vanilla-only slots | `weaponWrap` |
+
+### Light Machine Guns (LMG)
+
+#### SNAFU_M60
+
+**M60**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Handguards | `SNAFU_M60_Handguard_E3`, `SNAFU_M60_Handguard_E4` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Other | `SNAFU_M60_ScopeMount` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_RPK16_Black
+
+**RPK-16 Black** · Variants: `SNAFU_RPK16_Black`, `SNAFU_RPK16_Green`, `SNAFU_RPK16_Tan`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### GCGN_M249
+
+**M249**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Handguards | `SNAFU_M249HG` |
+| Stocks | `SNAFU_M249Stock` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_FGKAC_Grip`, `SNAFU_M249Grip` |
+| Bipods | `SNAFU_M249Bipod` |
+| Lights & Lasers | `SNAFU_PEQ1_Laser`, `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_Bren
+
+**Bren**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFURPD
+
+**RPD**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### Snafu_PKP_NBlack_GUN
+
+**SNAFU PKP** · Variants: `Snafu_PKP_NBlack_GUN`, `Snafu_PKP_Black_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Bipods | `SNAFU_NPKPBIPOD`, `SNAFU_PKPBIPOD` |
+| Vanilla-only slots | `weaponWrap` |
+
+### Submachine Guns (SMG) & PDWs
+
+#### SNAFUVECTOR_45acp_GUN
+
+**KRISS Vector 45ACP** · Variants: `SNAFUVECTOR_45acp_GUN`, `SNAFUVECTOR_9mm_GUN`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFU_PDW_45ACP
+
+**PDW 45ACP** · Variants: `SNAFU_PDW_45ACP`, `SNAFU_PDW_9mm`
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `pistolMuzzle`, `weaponWrap` |
+
+#### SNAFUThompsonMk2
+
+**Thompson Mk2**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Vanilla-only slots | `weaponWrap`, `pistolMuzzle` |
+
+#### GCGN_MP7
+
+**MP7**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFUP90
+
+**P90**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUPPSh
+
+**PPSh-41**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFUPPSKN
+
+**PPSKN-42**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Black`, `SNAFU_LNormalized_Suppressor_Green`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Black`, `SNAFU_Normalized_Suppressor_Green`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_Agram_GUN
+
+**Agram 2000**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+
+#### SNAFUKH9
+
+**KH9**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFU_MP9_GUN
+
+**MP9**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFU_MPX_GUN
+
+**SIG Sauer MPX**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGCR_Grip`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+
+#### SNAFUSten
+
+**STEN Mk III**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `weaponWrap`, `pistolMuzzle` |
+
+#### Tec9_Gun
+
+**Tec9**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFUUzi
+
+**UZI**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Vanilla-only slots | `weaponWrap`, `pistolMuzzle` |
+
+#### GCGN_Vityaz
+
+**Vityaz-SN PP19-01**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Stocks | `SNAFU_AK19_Stock`, `SNAFU_AK_AR_Stock` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Vanilla-only slots | `WeaponHandguardAK`, `weaponWrap`, `pistolMuzzle` |
+
+### Shotguns
+
+#### AA12_Gun
+
+**AA12**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Grips & Foregrips | `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFU_FGKAC_Grip`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+
+#### GCGN_BenelliM4
+
+**Benelli M2**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan`, `SNAFUMDAR_Supp_Black`, `SNAFUMDAR_Supp_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SN_Auto_Shotgun
+
+**SN Auto Shotgun**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SN_M870
+
+**SN M870**
+
+| Type | Attachments |
+|---|---|
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### Spas12_Gun
+
+**Spas12**
+
+| Type | Attachments |
+|---|---|
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+| Vanilla-only slots | `weaponWrap` |
+
+#### SNAFU_TP82S
+
+**TP-82 Shotgun**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+
+#### VR80_Gun
+
+**VR80 Shotgun**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Aimpoint_ACO`, `SNAFU_Aimpoint_M5`, `SNAFU_Elcan`, `SNAFU_EOTech_EXPS3`, `SNAFU_HuntingOptic`, `SNAFU_IRONMODOptic`, `SNAFU_Kahles`, `SNAFU_Kobra`, `SNAFU_Leupold_Mark8`, `SNAFU_Nightforce`, `SNAFU_Tango6T_Black`, `SNAFU_Tango6T_Snow`, `SNAFU_Tango6T_Tan`, `SNAFU_Tango6T_Wood`, `SNAFU_Trijicon`, `SNAFU_Trijicon_Docter`, `SNAFU_Walther` |
+| Suppressors & Muzzle Devices | `SNAFU_Agram_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Black`, `SNAFU_LStandardized_Suppressor_Green`, `SNAFU_MPX_Suppressor_Black`, `Snafu_ScarH_SIL_Black`, `Snafu_ScarH_SIL_Tan`, `SNAFU_SPMOD`, `SNAFU_SR25_Supp`, `SNAFU_Standardized_Suppressor_Black`, `SNAFU_Standardized_Suppressor_Green`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SNAFUGevar_Suppressor_Black`, `SNAFUGevar_Suppressor_Green`, `SNAFUGevar_Suppressor_Tan` |
+| Lights & Lasers | `SNAFUUniversalLight` |
+| Shotgun Chokes | `SNAFU_Shotgunchoke_Black`, `SNAFU_Shotgunchoke_Blue`, `SNAFU_Shotgunchoke_Brown`, `SNAFU_Shotgunchoke_Green`, `SNAFU_Shotgunchoke_Purple`, `SNAFU_Shotgunchoke_Red`, `SNAFU_Shotgunchoke_Tur`, `SNAFU_Shotgunchoke_Yellow` |
+| Vanilla-only slots | `weaponWrap` |
+
+### Pistols & Revolvers
+
+#### SNAFUChiappaRhino
+
+**Chiappa Rhino**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `RevolverCylinderSNAFUChiappaRhino`, `RevolverEjectorSNAFUChiappaRhino` |
+
+#### SNAFUAPS
+
+**APS**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFUSWM629
+
+**Smith & Wesson Model 629**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `RevolverCylinderSNAFUSWM629`, `RevolverEjectorSNAFUSWM629` |
+
+#### SN_USP
+
+**SN USP**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+| Vanilla-only slots | `pistolMuzzle`, `pistolFlashlight` |
+
+#### SNAFUMagnum500
+
+**Model 500 Competitor**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `RevolverCylinderSNAFUMagnum500`, `RevolverEjectorSNAFUMagnum500` |
+
+#### SNAFU_Fort12_GUN
+
+**Fort12**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SNAFU_PL14HQP
+
+**Lebedev-PL14 Pistol**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+| Vanilla-only slots | `pistolFlashlight`, `pistolMuzzle` |
+
+#### SN_Glock19
+
+**SN Glock19**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+| Vanilla-only slots | `pistolFlashlight`, `pistolMuzzle` |
+
+#### SN_M9
+
+**SN M9**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `pistolMuzzle` |
+
+#### SN_Mp443
+
+**SN Mp443**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_Docter` |
+| Vanilla-only slots | `pistolFlashlight`, `pistolMuzzle` |
+
+#### SN_Springfield
+
+**XD Sub-Compact**
+
+| Type | Attachments |
+|---|---|
+| Vanilla-only slots | `pistolFlashlight`, `pistolMuzzle` |
+
+### Test / Duplicate Classes
+
+#### SN_AKM
+
+**$STR_cfgWeapons_AKM0**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_M14Optic` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W`, `SNAFU_SR25_Supp`, `SNAFU_SR3Vikhr_Supp`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SR3_Vikhr_Supp` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Other | `SNAFU_SKS_Bayonet` |
+| Vanilla-only slots | `sr25bipod` |
+
+#### SN_AKM_TESTBED
+
+**testing AKM**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_M14Optic` |
+| Suppressors & Muzzle Devices | `SNAFU_408_Suppressor_T`, `SNAFU_50bmg_Suppressor_B`, `SNAFU_50bmg_Suppressor_M`, `SNAFU_50bmg_Suppressor_S`, `SNAFU_50bmg_Suppressor_U`, `SNAFU_50bmg_Suppressor_W`, `SNAFU_SR25_Supp`, `SNAFU_SR3Vikhr_Supp`, `SNAFUAR15_SPR_SIL`, `SNAFUAR15_SPR_SQSIL`, `SR3_Vikhr_Supp` |
+| Grips & Foregrips | `SA58_FGrip`, `SNAFU_AFG_02_Black`, `SNAFU_AFG_02_OD`, `SNAFU_AFG_02_Tan`, `SNAFUAR15_AFG`, `SNAFUMPX_Grip`, `SNAFUScar_AFG_BK`, `SNAFUScar_AFG_Tan` |
+| Other | `SNAFU_SKS_Bayonet` |
+| Vanilla-only slots | `sr25bipod` |
+
+#### SR3_Vikhr_Gun
+
+**REPLACE SR-3 Assault Rifle**
+
+| Type | Attachments |
+|---|---|
+| Optics | `SNAFU_AKAimpoint_ACO`, `SNAFU_AKAimpoint_M5`, `SNAFU_AKElcan`, `SNAFU_AKEOTech_EXPS3`, `SNAFU_AKHuntingOptic`, `SNAFU_AKKahles`, `SNAFU_AKLeupold_Mark8`, `SNAFU_AKNightforce`, `SNAFU_AKTango6T_Black`, `SNAFU_AKTango6T_Snow`, `SNAFU_AKTango6T_Tan`, `SNAFU_AKTango6T_Wood`, `SNAFU_AKTrijicon`, `SNAFU_AKTrijicon_Docter`, `SNAFU_AKWalther` |
+| Suppressors & Muzzle Devices | `SNAFU_AK19Muzzel`, `SNAFU_AK308Muzzel`, `SNAFU_HeramuzzelF`, `SNAFU_MK47Muzzel`, `SNAFU_MuzzelFF`, `SNAFU_SR3Vikhr_Supp`, `SR3_Vikhr_Supp`, `Test_SNAFU_MuzzelF` |
+| Handguards | `SNAFU_SR3HG` |
+| Stocks | `SNAFU_WSR3Stock` |
+| Grips & Foregrips | `SNAFU_SR3Grip` |
+| Vanilla-only slots | `weaponWrap` |
 
 ## Attachment slots
 
